@@ -1,4 +1,4 @@
-# <p align="center"> Hi there 👋 I'm Mohammad Hossein 👨‍💻 </p>
+# <p align="center"> Hi👋</p>
 <p align="center">This page contains a variety of application formulas that are used in various projects that we develop frontend programmers ♥
 </p>
 
