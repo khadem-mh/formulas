@@ -5,7 +5,27 @@
 <br/><br/>
 
 ## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-1.js
-<img src="./img/randomItem.png"/>
+```javascript
+const randomItemFromArray = (arr, randomCount) => {
+    const shuffled = arr.sort(() => .5 - Math.random())
+    return shuffled.slice(0, randomCount)
+}
+```
 
 ## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-2.js
-<img src="./img/scrollHoriz.png"/>
+```javascript
+let customScroll = document.getElementById('scroll')
+
+const scrollHorizontal = () => {
+    let scrollPercent = window.scrollY / (document.body.clientHeight - window.innerHeight)
+    let scrollPercentRoundede = Math.round(scrollPercent * 100)
+    customScroll.style.width = scrollPercentRoundede + '%'
+}
+
+window.addEventListener('scroll', scrollHorizontal)
+```
+
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-3.js
+```javascript
+let customScroll
+```
