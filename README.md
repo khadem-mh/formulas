@@ -52,3 +52,13 @@ for (let num in numberReapet) {
     console.log(nums);
 }
 ```
+
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-6.js
+```javascript
+let arr1 = [2, 6, 1, 4, 7, 0, 3, 7, 9, 10, 5, 8, 5, 2]
+
+let maxNumber = arr1.reduce((prevNum, currentNum) => {
+if (prevNum < currentNum) return currentNum
+else return prevNum
+}, 0)
+```
