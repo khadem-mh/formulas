@@ -62,3 +62,13 @@ if (prevNum < currentNum) return currentNum
 else return prevNum
 }, 0)
 ```
+
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-7.js
+```javascript
+let arr1 = [2, 6, 1, 4, 7, 0, 3, 7, 9, 10, 5, 8, 5, 2]
+
+let minNumber = arr1.reduce((prevNum, currentNum) => {
+if (prevNum > currentNum) return currentNum
+else return prevNum
+}, 0)
+```
