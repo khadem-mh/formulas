@@ -4,15 +4,15 @@
 
 <br/><br/>
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-1.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> randomChooseItemFromArray.js
 ```javascript
-const randomItemFromArray = (arr, randomCount) => {
+const randomChooseItemFromArray = (arr, randomCount) => {
     const shuffled = arr.sort(() => .5 - Math.random())
     return shuffled.slice(0, randomCount)
 }
 ```
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-2.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> scrollHorizontal.js
 ```javascript
 let customScroll = document.getElementById('scroll')
 
@@ -25,7 +25,7 @@ const scrollHorizontal = () => {
 window.addEventListener('scroll', scrollHorizontal)
 ```
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-3.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> concatinationArray.js
 ```javascript
 let arr1 = [1, 2, 3, 4, 5]
 let arr2 = [6, 7, 8, 9, 10]
@@ -33,13 +33,13 @@ let arr2 = [6, 7, 8, 9, 10]
 let concatNumsArray = [...arr1, ...arr2]
 ```
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-4.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> sortingArray.js
 ```javascript
 let arr1 = [2, 6, 1, 4, 7, 0, 3, 9, 10, 5, 8]
 let numsArrSort = arr1.sort((a, b) => { return a - b })
 ```
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-5.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> determinationCountNumber.js
 ```javascript
 let arr1 = [2, 6, 1, 4, 7, 0, 3, 7, 9, 10, 5, 8, 5, 2]
 
@@ -53,7 +53,7 @@ for (let num in numberReapet) {
 }
 ```
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-6.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> findMaxNumber.js
 ```javascript
 let arr1 = [2, 6, 1, 4, 7, 0, 3, 7, 9, 10, 5, 8, 5, 2]
 
@@ -63,7 +63,7 @@ else return prevNum
 }, 0)
 ```
 
-## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-7.js
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> findMinNumber.js
 ```javascript
 let arr1 = [2, 6, 1, 4, 7, 0, 3, 7, 9, 10, 5, 8, 5, 2]
 
