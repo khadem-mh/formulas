@@ -38,3 +38,17 @@ let concatNumsArray = [...arr1, ...arr2]
 let arr1 = [2, 6, 1, 4, 7, 0, 3, 9, 10, 5, 8]
 let numsArrSort = arr1.sort((a, b) => { return a - b })
 ```
+
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> f-5.js
+```javascript
+let arr1 = [2, 6, 1, 4, 7, 0, 3, 7, 9, 10, 5, 8, 5, 2]
+
+let numberReapet = numsArrSort.reduce((prev, current) => {
+    return { ...prev, [current]: (prev[current] || 0) + 1 }
+}, {})
+
+for (let num in numberReapet) {
+    nums += ` ${num} `
+    console.log(nums);
+}
+```
