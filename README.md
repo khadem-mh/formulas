@@ -72,3 +72,17 @@ if (prevNum > currentNum) return currentNum
 else return prevNum
 }, 0)
 ```
+
+## <img src="https://img.shields.io/badge/-333333?style=flat&logo=javascript"> `getOutAreaBox.js`
+```javascript
+let getPositionElem = boxElem.getBoundingClientRect()
+
+if (
+    event.clientY < getPositionElem.top ||
+    event.clientY > (getPositionElem.top + getPositionElem.height) ||
+    event.clientX > (getPositionElem.left + getPositionElem.width) ||
+    event.clientX < getPositionElem.left
+) {
+    console.log('outside');
+}
+```
